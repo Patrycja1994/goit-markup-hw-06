@@ -918,6 +918,8 @@ input {
     border-radius: 4px;
     width: 448px;
     height: 40px;
+    margin-bottom: 10px;
+    background-color: transparent;
 }
 
 .comments {
@@ -941,6 +943,12 @@ textarea::placeholder{
     margin-top: 12px;
 }
 
-input {
-    margin-bottom: 10px;
+.form-icon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+
+.form-icon>use {
+    position: absolute;
 }
