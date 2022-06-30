@@ -884,7 +884,7 @@ a.text-decoration {
     background-color: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border-color: #2196F3;
+    border:none;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 1.875;
@@ -1007,6 +1007,7 @@ textarea::placeholder{
     border: none;
     text-align: left;
     padding-left: 42px;
+    cursor: pointer;
 }
 
 .icon-icon-send {
