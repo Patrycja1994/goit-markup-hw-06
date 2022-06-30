@@ -920,6 +920,31 @@ input {
     height: 40px;
     margin-bottom: 10px;
     background-color: transparent;
+    padding-left: 42px;
+    position: relative;
+}
+
+input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.newsletter-input {
+    padding-left: 16px;
+    margin-top: 20px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    height: 50px;
+    width: 358px;
+}
+
+.email-label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    color:#FFFFFF;
 }
 
 .comments {
@@ -944,11 +969,41 @@ textarea::placeholder{
 }
 
 .form-icon {
-    position: relative;
+    position: absolute;
     width: 18px;
     height: 18px;
 }
 
-.form-icon>use {
+.newsletter {
+    margin-top: 12px;
+    margin-left: 37px;
+}
+
+.email-form {
+    display: flex;
+}
+
+.save-button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color:#2196F3;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    border-radius: 4px;
+    margin-top: 36px;
+    margin-left: 12px;
+    border: none;
+    text-align: left;
+    padding-left: 42px;
+}
+
+.icon-icon-send {
     position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 13px;
 }

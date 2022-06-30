@@ -518,35 +518,46 @@
           </li>
         </ul>
       </div>
-    </div>
-    </footer>
+        <div class="newsletter">
+        <form class="email-form" action="#" method="POST" placeholder="E-mail">
+          <label class="email-label"> ZAPISZ SIĘ DO NEWSLATTERA
+          <input class="newsletter-input" type="e-mail" name="e-mail" placeholder="E-mail"/> 
+          </label> 
+        <button class="save-button" type="submit">Zapisz się
+          <svg class="icon-icon-send">
+            <use href="./images/sprite.svg#icon-icon-send"></use>
+          </svg> 
+        </button> 
+          </div>
+      </div>
+      </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class= "modal-x" data-modal-close>X</button>
         <a class="form-title">Zostaw swoje dane w formularzu poniżej</a> 
         <form class="modal-form" action="#" method="POST">
-          <label> Imie 
+          <label class="name-label"> Imie 
           <svg class="form-icon">
             <use href="./images/sprite.svg#icon-person"></use>
-          </svg>
-          <input type="name" name="form-name"/>
+          </svg>  
+          <input class="window-modal" type="name" name="form-name"/>
           </label>
           <label> Telefon
           <svg class="form-icon">
             <use href="./images/sprite.svg#icon-phone-two"></use>
           </svg>
-          <input type="telephone" name="form-telephone" />
+          <input class="window-modal" type="telephone" name="form-telephone" />
           </label>
           <label> Email
-          <svg class="form-icon">
+          <svg class="form-icon icon-email-two">
             <use href="./images/sprite.svg#icon-email-two"></use>
           </svg>
-          <input type="email" name="form-email" />
-          </label>
+          <input class="window-modal" type="email" name="form-email" />
+          </label> 
           <label> Komentarz
           <textarea class="comments" name="form-comment" placeholder="Wprowadź tekst"></textarea>
-          </label>
+          </label> 
           <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox" name="policy">
           <label for="user-policy" class="modal-form-policy-text">
           Oświadczam iż akceptuję <span class="text-decoration"> Regulamin </span> i <span class="text-decoration"> Politykę Prywatności. </span></label>
